@@ -2,11 +2,11 @@
   "name": "blue-dawn-theme",
   "displayName": "Blue Dawn Dark Theme",
   "description": "Blue dawn dark theme",
-	"publisher": "faressoft",
-	"version": "0.0.4",
-	"scripts": {
-		"publish": "vsce package & vsce publish"
-	},
+  "publisher": "faressoft",
+  "version": "0.0.5",
+  "scripts": {
+    "publish": "vsce package & vsce publish"
+  },
   "engines": {
     "vscode": "^1.40.0"
   },
