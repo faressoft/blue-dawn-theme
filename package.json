@@ -1,0 +1,29 @@
+{
+  "name": "blue-dawn-theme",
+  "displayName": "Blue Dawn Dark Theme",
+  "description": "Blue dawn dark theme",
+	"publisher": "faressoft",
+	"version": "0.0.4",
+	"scripts": {
+		"publish": "vsce package & vsce publish"
+	},
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faressoft/blue-dawn-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue Dawn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blue Dawn-color-theme.json"
+      }
+    ]
+  }
+}
